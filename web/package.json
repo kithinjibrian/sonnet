@@ -1,0 +1,38 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pod dev",
+    "build": "pod build",
+    "start": "pod start"
+  },
+  "dependencies": {
+    "@kithinji/arcane": "^1.0.21",
+    "@kithinji/express": "^1.0.7",
+    "@kithinji/orca": "^1.0.32",
+    "@kithinji/typeorm": "^1.0.3",
+    "@supabase/supabase-js": "^2.93.2",
+    "cron-parser": "^5.5.0",
+    "express": "^5.2.1",
+    "js-cookie": "^3.0.5",
+    "marked": "^17.0.1",
+    "openai": "^6.16.0",
+    "reflect-metadata": "latest",
+    "rxjs": "^7.8.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.28",
+    "uuid": "^13.0.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@kithinji/pod": "^1.0.50",
+    "@types/js-cookie": "^3.0.6",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^20.19.27",
+    "link": "^2.1.2",
+    "npm": "^11.8.0",
+    "typescript": "~5.9.3"
+  }
+}
